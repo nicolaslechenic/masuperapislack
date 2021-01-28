@@ -22,6 +22,6 @@ document.getElementById('submit').addEventListener('click',() => {
       'Content-type': 'application/json',
       'Authorization': auth
     }), 
-    body:  JSON.stringify({channel:"C01L220T2TF",text: txt})
+    body:  JSON.stringify({channel:"HAMA15N0N",text: txt})
   });
 })
