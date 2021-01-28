@@ -1,3 +1,5 @@
+console.log(localStorage.getItem('token'))
+
 if(!localStorage.getItem('token')) {
   fetch('https://api-slack-token-nlc.herokuapp.com/')
   .then(response => response.json())
